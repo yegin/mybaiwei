@@ -18,6 +18,8 @@ public class Department {
 
     private Integer result;
 
+    private List<Department> children = new ArrayList<>();
+
     public Integer getResult() {
         return result;
     }
@@ -26,7 +28,7 @@ public class Department {
         this.result = result;
     }
 
-    private List<Department> children = new ArrayList<>();
+
 
     public List<Department> getChildren() {
         return children;
